@@ -18,6 +18,7 @@ const verifyToken = (req, res, next) => {
 //     req.test = authHeader.split(" ")[1];
 //     next();
 //     };
+// Seeing
 
 const verifyTokenAndAuthorization = (req,res,next)=> {
     verifyToken(req,res,() => {
